@@ -39,6 +39,10 @@ footer {
     background-color: #0B090A;
     color: #fff;
     grid-area: foot;
+    text-align: right;
+    padding: 2vh 15vw;
+    font-size: 1vh;
+    z-index: 1;
 }
 
 main {
@@ -59,6 +63,7 @@ img {
 }
 img:hover {
     border: #d31d75 2px dashed;
+    box-shadow: #d73583 0 0 10px 1px ;
 }
 aside {
     width: 15vw;
@@ -77,6 +82,7 @@ ul {
 #linklist{
     color: #fff;
     width: fit-content;
+    margin-top: 10vh;
 }
 #mainlist{
     color: black;
@@ -92,6 +98,7 @@ ul {
     left: -1em;
     top: 0.9em;
     position: relative;
+    z-index: 0;
 }
 .asidelinks:hover::before{
     content: "";
