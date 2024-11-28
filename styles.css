@@ -21,6 +21,7 @@
     background-color: #0B090A;
     color: #fff;
     z-index: 0;
+    font-size: 1vw;
 }
 a{
     text-decoration: none;
@@ -36,8 +37,9 @@ a{
 footer {
     width: 100vw;
     height: 10vh;
-    background-color: #0B090A;
-    color: #fff;
+    background-color: #fff;
+    color: #0B090A;
+    border-right: #d31d75 5px solid;
     grid-area: foot;
     text-align: right;
     padding: 2vh 15vw;
@@ -59,10 +61,10 @@ img {
     width: 10vh;
     float: right;
     margin: 0px 50px;
-    border: #fff solid 2px;
+    border: #fff solid 5px;
 }
 img:hover {
-    border: #d31d75 2px dashed;
+    border: #d31d75 5px dashed;
     box-shadow: #d73583 0 0 10px 1px ;
 }
 aside {
@@ -72,6 +74,7 @@ aside {
     background-color: #0B090A;
     padding: 25vh 0vh;
     grid-area: side;
+    border-bottom: #d31d75 5px solid;
 }
 
 ul {
