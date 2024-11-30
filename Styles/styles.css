@@ -28,7 +28,7 @@ a{
     color: #fff;
 }
 .toplinks{
-    padding: 0.5vw 3vw 3vw 0.5vw;
+    padding: 0vw 3vw 3vw 0.5vw;
     margin: 0.1vw;
     text-align: center;
     float: left;
@@ -37,13 +37,13 @@ a{
 footer {
     width: 100vw;
     height: 10vh;
-    background-color: #fff;
-    color: #0B090A;
+    background-color: #030303;
+    color: #fff;
     border-right: #d31d75 5px solid;
-    grid-area: foot;
     text-align: right;
-    padding: 2vh 15vw;
-    font-size: 1vh;
+    padding: 2vmin;
+    grid-area: foot;
+    font-size: 2vmax 1vmin;
     z-index: 1;
 }
 
@@ -54,6 +54,7 @@ main {
     border-top: 5px solid #d31d75;
     border-top-right-radius: 200px;
     box-shadow: 60px -60px 0 0 #0B090A;
+    border-bottom: #d31d75 5px dashed;
 }
 
 img {
@@ -64,7 +65,7 @@ img {
     border: #fff solid 5px;
 }
 img:hover {
-    border: #d31d75 5px dashed;
+    border: #d31d75 5px solid;
     box-shadow: #d73583 0 0 10px 1px ;
 }
 aside {
