@@ -132,6 +132,9 @@ a {
     border: #d31d75 5px solid;
     box-shadow: #d73583 0 0 10px 1px;
 }
+.Proffessions{
+    grid-area: alt;
+}
  /* Footer All */
 footer {
     width: 100vw;
@@ -210,5 +213,22 @@ ul{
 }
 .HoraireListItems:hover{
     color: #000;
-    background-color: #d31d75;
+}
+#Prog:hover{
+    background-color: darkcyan;
+}
+#Shit:hover{
+    background-color: saddlebrown;
+}
+#Explo:hover{
+    background-color: yellow;
+}
+#Maths:hover{
+    background-color: red;
+}
+#CWeb:hover{
+    background-color: paleturquoise;
+}
+#Philo:hover{
+    background-color: blueviolet;
 }
