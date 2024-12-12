@@ -176,11 +176,14 @@ h4 {
     margin: 1vh;
 }
 
-h2 {
+.days {
     font-weight: lighter;
     text-align: center;
     font-size: 2vmax;
-    border: #fff 2px solid;  
+    border: #fff 2px solid;
+    width: 18vw;
+    padding: 0vw 3vw 0vw 3vw;
+    margin: auto; 
 }
 h1{
     text-align: center;
@@ -203,13 +206,11 @@ ul{
     color: black;
 }
 .HoraireListItems{
-    width: auto;
+    width: 18vw;
     height: 10vmax;
+    padding: 0vw 1vw 0vw 1vw;
     font-size: 2vmax;
-    padding: 10px;
     border: #fff 2px solid;
-    margin: 0%;
-    align-content: center;
     text-align: center;
 }
 .HoraireListItems:hover{
@@ -240,4 +241,10 @@ ul{
     width: auto;
     height: 10vmax;
     align-self: center;
+}
+.HoraireList{
+    margin: auto;
+}
+.dayCol{
+    padding: 0px;
 }
