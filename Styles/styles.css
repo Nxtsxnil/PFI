@@ -24,7 +24,6 @@
         "horR horR horR horR horR"
         "horR horR horR horR horR"
         "foot foot foot foot foot";
-    overflow: none;
 }
 .containerAlt { 
     display: grid;
@@ -34,7 +33,7 @@
         " alt  alt  alt  alt  alt"
         " alt  alt  alt  alt  alt"
         "foot foot foot foot foot";
-    overflow: none;
+        overflow-x: hidden;
 }
 .HoraireGrid { /* Used in Horaire */
     display: grid;
@@ -69,7 +68,7 @@
     background-color: #0B090A;
     color: #fff;
     z-index: 0;
-    font-size: 2vmax 1vmin;
+    font-size: 1vmax;
 }
 /* Liens */
 a {
@@ -160,6 +159,9 @@ footer {
     box-shadow: 60px -60px 0 0 #0B090A;
     border-bottom: #d31d75 5px dashed;
 }
+main {
+    width: 100vw;
+}
 /* aside */
 aside {
     width: 15vw;
@@ -239,12 +241,17 @@ ul{
 }
 .ABS{
     width: auto;
-    height: 10vmax;
     align-self: center;
 }
 .HoraireList{
     margin: auto;
 }
 .dayCol{
-    padding: 0px;
+    padding: 0%;
+}
+.Col{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 }
