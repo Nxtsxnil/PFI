@@ -255,3 +255,10 @@ ul{
     flex-wrap: wrap;
     align-items: center;
 }
+.Pimg{
+    width: 20vw;
+}
+.Pimg:hover{
+    animation: both 1.5s;
+    animation-name: profess;
+}
