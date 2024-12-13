@@ -52,7 +52,6 @@
         "ABS ABS ABS ABS ABS";
     border-collapse: collapse;
     border: #d31d75 5px solid;
-    padding: auto;
     color: #fff;
     background-color: #030303;
     grid-area: horR;
@@ -145,7 +144,7 @@ footer {
     text-align: right;
     padding: 2vmin;
     grid-area: foot;
-    font-size: 2vmax 1vmin;
+    font-size: 2vmax;
     z-index: 1;
 }
 
